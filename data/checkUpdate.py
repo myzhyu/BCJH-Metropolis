@@ -1,5 +1,5 @@
 import os
-
+'''
 print("正在检查更新...")
 ret = os.system(
     "wget --timeout=5 --tries=1 -O data/data.new.json https://raw.githubusercontent.com/foodgame/foodgame.github.io/master/data/data.min.json > /dev/null 2>&1")
@@ -14,3 +14,4 @@ if ret == 0:
         os.system("mv data/data.new.json data/data.min.json")
 else:
     print("从图鉴网获取最新数据失败，将使用本地数据。")
+'''
