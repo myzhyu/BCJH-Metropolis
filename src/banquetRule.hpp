@@ -25,7 +25,7 @@ void banquetRule(BanquetRule *const &rule, States &s, int *bestfull) {
         lenientRule[i] = &rule[i].lenientRule;
     }
     bestfull[0] = banquetRule2(strictRule, lenientRule, s, 0);           
-    bestfull[1] = banquetRule13(strictRule, lenientRule, s, 1);
+    //bestfull[1] = banquetRule13(strictRule, lenientRule, s, 1);
     return;
 }
 
